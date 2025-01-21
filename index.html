@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee5ceec89e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/shizi.jpg" class="logo"> -->
+                 <a class="logo">Portfolio</a>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Content Writer</p>
+                <h1>Hi, I'm <span>Shehzil</span><br>Ali From Pakistan</h1>
+            </div>
+        </div>
+        <div class="header-img">
+            <img src="images/shizi3.jpg">
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/shizi2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>In this video we will create a personal portfolio website design step by step using 
+                    HTML CSS and JavaScript. You can use this website to make your online resume or CV.
+                    In this website design we will add name, designation of the user. Then we will display 
+                    the image, skills, work experience and education details. We will also add the list of 
+                    services and work portfolio on this website. In the footer of this website we will add 
+                    contact info and contact form. Your can receive the contact form data on your google 
+                    sheets.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Content Writer</span><br>Writing Content</li>
+                            <li><span>Blog Writer</span><br>Writing Blogs</li>
+                            <li><span>Article Writer</span><br>Writing Articles</li>
+                        </ul>
+                    </div>
+
+                        <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019</span><br>Content Writer</li>
+                            <li><span>Blog Writer</span><br>Writing Blogs</li>
+                            <li><span>Article Writer</span><br>Writing Articles</li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Matric from Educators</li>
+                            <li><span>2024</span><br>Content Writing course from Digi-Skills</li>
+                            <li><span>2024-2026</span><br>ICS(Physics)</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-duotone fa-solid fa-newspaper"></i>
+                    <h2>Content Writer</h2>
+                    <p>I'll create content and provide you in script.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-blogger"></i>
+                    <h2>Blog Writer</h2>
+                    <p>I'll write blog for you.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-duotone fa-solid fa-newspaper"></i>
+                    <h2>Article Writer</h2>
+                    <p>I'll write articles for your company, to your company and many more.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+     </div>
+
+  <!-- Portfolio Section -->
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/5WAYS.png" alt="Project 1">
+            <div class="portfolio-layer">
+                <h4>5 Ways to make Content More Engaging</h4>
+                <p>I have discussed 5 ways to make your content more engaging and attractive.</p>
+                <a href="https://medium.com/@alihassandha/5ways-to-make-your-day-worth-living-2adb9109f067"><i class="fa-duotone fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/solitude.png" alt="Project 2">
+            <div class="portfolio-layer">
+                <h4>Home Alone</h4>
+                <p>I have discussed my real experience when my family left me behind.</p>
+                <a href="https://medium.com/@alihassandha/alone-in-the-silence-the-day-my-family-left-me-behind-4934a51fe81f"><i class="fa-duotone fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/teens.webp" alt="Project 3">
+            <div class="portfolio-layer">
+                <h4>TEENAGERS OUR FUTURE</h4>
+                <p>I have discussed the future of our teenagers.</p>
+                <a href="https://medium.com/@alihassandha/teenagers-our-future-d7a80e19ca32"><i class="fa-duotone fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/5WAYS.png" alt="Project 4">
+            <div class="portfolio-layer">
+    <h4>5 Ways to make Content More Engaging</h4>
+    <p>I have discussed my real experience when my family left me behind.</p>
+                    <a href="https://medium.com/@alihassandha/5ways-to-make-your-day-worth-living-2adb9109f067"><i class="fa-duotone fa-solid fa-up-right-from-square"></i></a>
+        
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/solitude.png" alt="Project 5">
+            <div class="portfolio-layer">
+                <h4>Home Alone</h4>
+                <p>I have discussed 5 ways to make your content more engaging and attractive.</p>
+                <a href="https://medium.com/@alihassandha/alone-in-the-silence-the-day-my-family-left-me-behind-4934a51fe81f"><i class="fa-duotone fa-solid fa-up-right-from-square"></i></a>
+           
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/teens.webp" alt="Project 6">
+            <div class="portfolio-layer">
+                <h4>TEENAGERS OUR FUTURE</h4>
+                <p>I have discussed the future of our teenagers.</p>
+                <a href="https://medium.com/@alihassandha/teenagers-our-future-d7a80e19ca32"><i class="fa-duotone fa-solid fa-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+       <p><i class="fa-sharp fa-solid fa-paper-plane"></i> contact@example.com</p>
+       <p><i class="fa-sharp fa-solid fa-phone"></i> 0123456789</p>
+       <div class="social-icons">
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://medium.com/@alihassandha"><i class="fa-brands fa-medium"></i></a>
+        <a href="www.alihassandha@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+       </div>
+       <a href="images/Shehzil_Ali_resume_2[1].pdf" download class="btn btn2">Download Resume</a>
+    </div>
+    <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+  
+  <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+</html>
